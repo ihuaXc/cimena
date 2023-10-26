@@ -1,0 +1,26 @@
+
+.filme {
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s;
+}
+.filme h2 {
+    margin: 0;
+    font-size: 24px;
+}
+.filme img {
+    width: 66%;
+    height: auto;
+}
+.filme p {
+    margin: 0;
+    font-size: 14px;
+    color: #999;
+}
+.filme:hover {
+    transform: scale(1.05);
+}
